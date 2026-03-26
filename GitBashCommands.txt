@@ -1,22 +1,22 @@
 
 rupes@Rupesh MINGW64 ~/Documents
-$ mkdir gitbash-practice
+$ mkdir gitbash-practice                                  mkdir => It Creates Folder Named - "gitbash-practice"  
 
 rupes@Rupesh MINGW64 ~/Documents
-$ cd gitbash-practice
+$ cd gitbash-practice                                     cd => Now all the commands you give will do it's work in this folder.
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ touch notes.txt
+$ touch notes.txt                                         touch => It Creates a new file Named - "notes.txt"
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ echo "This is my first Git Bash Project"
+$ echo "This is my first Git Bash Project"                echo => It Prints "This is my first Git Bash Project"
 This is my first Git Bash Project
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ cat notes.txt
+$ cat notes.txt                                           cat => Displays the content of the file notes.txt
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ ls -la
+$ ls -la                                                  l=> Long Format a => all files :: ls -la => Shows all files, Including hidden ones,with full details
 total 4
 drwxr-xr-x 1 rupes 197609 0 Mar 25 07:52 ./
 drwxr-xr-x 1 rupes 197609 0 Mar 25 07:52 ../
@@ -30,7 +30,7 @@ rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
 $ echo "Hello" > notes.txt
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ ech "Second Line" > notes.txt
+$ ech "Second Line" > notes.txt                             ech => command failed because of typo ech instead of "echo"
 bash: ech: command not found
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
@@ -57,7 +57,7 @@ Another Line
 I am learning Git Bash step by step
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
-$ cd .
+$ cd .                                                
 
 rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
 $ cd ..
