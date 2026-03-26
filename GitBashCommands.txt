@@ -1,0 +1,343 @@
+
+rupes@Rupesh MINGW64 ~/Documents
+$ mkdir gitbash-practice
+
+rupes@Rupesh MINGW64 ~/Documents
+$ cd gitbash-practice
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ touch notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "This is my first Git Bash Project"
+This is my first Git Bash Project
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ cat notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ ls -la
+total 4
+drwxr-xr-x 1 rupes 197609 0 Mar 25 07:52 ./
+drwxr-xr-x 1 rupes 197609 0 Mar 25 07:52 ../
+-rw-r--r-- 1 rupes 197609 0 Mar 25 07:52 notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "Hello"
+Hello
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "Hello" > notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ ech "Second Line" > notes.txt
+bash: ech: command not found
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ exho "Second Line" > notes.txt
+bash: exho: command not found
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "Second Line"> notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ exho "Another Line" >> notes.txt
+bash: exho: command not found
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "Another Line" >> notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ echo "I am learning Git Bash step by step" >> notes.txt
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ cat notes.txt
+Second Line
+Another Line
+I am learning Git Bash step by step
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ cd .
+
+rupes@Rupesh MINGW64 ~/Documents/gitbash-practice
+$ cd ..
+
+rupes@Rupesh MINGW64 ~/Documents
+$ cd ..
+
+rupes@Rupesh MINGW64 ~
+$ cd ..
+
+rupes@Rupesh MINGW64 /c/Users
+$ cd ..
+
+rupes@Rupesh MINGW64 /c
+$ cd ..
+
+rupes@Rupesh MINGW64 /
+$ cd ..
+
+rupes@Rupesh MINGW64 /
+$ cd..
+bash: cd..: command not found
+
+rupes@Rupesh MINGW64 /
+$ cd ..
+
+rupes@Rupesh MINGW64 /
+$ cd c
+
+rupes@Rupesh MINGW64 /c
+$ cd Documents
+bash: cd: Documents: No such file or directory
+
+rupes@Rupesh MINGW64 /c
+$ cd User/Documents
+bash: cd: User/Documents: No such file or directory
+
+rupes@Rupesh MINGW64 /c
+$ cd User
+bash: cd: User: No such file or directory
+
+rupes@Rupesh MINGW64 /c
+$ cd Users
+
+rupes@Rupesh MINGW64 /c/Users
+$ cd ..
+
+rupes@Rupesh MINGW64 /c
+$ cd Users/Documents
+bash: cd: Users/Documents: No such file or directory
+
+rupes@Rupesh MINGW64 /c
+$ cd Users/rupesh/documents
+bash: cd: Users/rupesh/documents: No such file or directory
+
+rupes@Rupesh MINGW64 /c
+$ cd Users/rupes/documents
+
+rupes@Rupesh MINGW64 ~/documents
+$ ls -la
+total 13600
+drwxr-xr-x 1 rupes 197609        0 Mar 25 07:52  ./
+drwxr-xr-x 1 rupes 197609        0 Mar 23 17:57  ../
+-rw-r--r-- 1 rupes 197609   140949 Mar 19 15:09 'Candidate Acknowledgement Form 1.docx'
+-rw-r--r-- 1 rupes 197609   142038 Mar 19 15:01 'Candidate Qualification Form 1.docx'
+-rw-r--r-- 1 rupes 197609    13321 Mar 19 14:49 'Candidate Reference Form 1.docx'
+drwxr-xr-x 1 rupes 197609        0 Mar 17 13:10  Certifications/
+lrwxrwxrwx 1 rupes 197609       20 Feb  2 15:18 'My Music' -> /c/Users/rupes/Music
+lrwxrwxrwx 1 rupes 197609       23 Feb  2 15:18 'My Pictures' -> /c/Users/rupes/Pictures
+lrwxrwxrwx 1 rupes 197609       21 Feb  2 15:18 'My Videos' -> /c/Users/rupes/Videos
+drwxr-xr-x 1 rupes 197609        0 Mar 20 10:58  Notepad/
+drwxr-xr-x 1 rupes 197609        0 Mar 23 15:33  Programming/
+-rw-r--r-- 1 rupes 197609   124222 Mar 14 16:01  Rupesh_Mupparaju_Resume.docx
+-rw-r--r-- 1 rupes 197609 13439866 Mar 17 08:37  Rupesh_Mupparaju_Resume_1.docx
+drwxr-xr-x 1 rupes 197609        0 Feb 25 09:13  Testing/
+drwxr-xr-x 1 rupes 197609        0 Mar 10 16:25  __MACOSX/
+drwxr-xr-x 1 rupes 197609        0 Mar 10 16:25  bills/
+drwxr-xr-x 1 rupes 197609        0 Mar 25 07:52  gitbash-practice/
+
+rupes@Rupesh MINGW64 ~/documents
+$ cd Notepad
+
+rupes@Rupesh MINGW64 ~/documents/Notepad
+$ ls -la
+total 21
+drwxr-xr-x 1 rupes 197609    0 Mar 20 10:58  ./
+drwxr-xr-x 1 rupes 197609    0 Mar 25 07:52  ../
+-rw-r--r-- 1 rupes 197609  183 Mar 18 10:56 'Fake Location Details for each  job .md'
+-rw-r--r-- 1 rupes 197609 7446 Mar 23 09:41  Prompts.md
+-rw-r--r-- 1 rupes 197609 1328 Mar  4 12:11  Prompts.txt
+-rw-r--r-- 1 rupes 197609    0 Mar 11 12:15 'Resumes Details .txt'
+-rw-r--r-- 1 rupes 197609    0 Mar  3 16:37 'You are an AI.txt'
+
+rupes@Rupesh MINGW64 ~/documents/Notepad
+$ cd /
+
+rupes@Rupesh MINGW64 /
+$ cd /
+
+rupes@Rupesh MINGW64 /
+$ pwd
+/
+
+rupes@Rupesh MINGW64 /
+$ cd C
+
+rupes@Rupesh MINGW64 /C
+$ cd User/rupes/Documents
+bash: cd: User/rupes/Documents: No such file or directory
+
+rupes@Rupesh MINGW64 /C
+$ cd Users/rupes/Documents
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents
+$ ls -la
+total 13600
+drwxr-xr-x 1 rupes 197609        0 Mar 25 07:52  ./
+drwxr-xr-x 1 rupes 197609        0 Mar 23 17:57  ../
+-rw-r--r-- 1 rupes 197609   140949 Mar 19 15:09 'Candidate Acknowledgement Form 1.docx'
+-rw-r--r-- 1 rupes 197609   142038 Mar 19 15:01 'Candidate Qualification Form 1.docx'
+-rw-r--r-- 1 rupes 197609    13321 Mar 19 14:49 'Candidate Reference Form 1.docx'
+drwxr-xr-x 1 rupes 197609        0 Mar 17 13:10  Certifications/
+lrwxrwxrwx 1 rupes 197609       20 Feb  2 15:18 'My Music' -> /c/Users/rupes/Music
+lrwxrwxrwx 1 rupes 197609       23 Feb  2 15:18 'My Pictures' -> /c/Users/rupes/Pictures
+lrwxrwxrwx 1 rupes 197609       21 Feb  2 15:18 'My Videos' -> /c/Users/rupes/Videos
+drwxr-xr-x 1 rupes 197609        0 Mar 20 10:58  Notepad/
+drwxr-xr-x 1 rupes 197609        0 Mar 23 15:33  Programming/
+-rw-r--r-- 1 rupes 197609   124222 Mar 14 16:01  Rupesh_Mupparaju_Resume.docx
+-rw-r--r-- 1 rupes 197609 13439866 Mar 17 08:37  Rupesh_Mupparaju_Resume_1.docx
+drwxr-xr-x 1 rupes 197609        0 Feb 25 09:13  Testing/
+drwxr-xr-x 1 rupes 197609        0 Mar 10 16:25  __MACOSX/
+drwxr-xr-x 1 rupes 197609        0 Mar 10 16:25  bills/
+drwxr-xr-x 1 rupes 197609        0 Mar 25 07:52  gitbash-practice/
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents
+$ cd /gitbash-practice
+bash: cd: /gitbash-practice: No such file or directory
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents
+$ cd gitbash-practice
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ ls -;a
+ls: cannot access '-': No such file or directory
+bash: a: command not found
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ ls -la
+total 5
+drwxr-xr-x 1 rupes 197609  0 Mar 25 07:52 ./
+drwxr-xr-x 1 rupes 197609  0 Mar 25 07:52 ../
+-rw-r--r-- 1 rupes 197609 61 Mar 25 08:00 notes.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ cp notes.txt
+cp: missing destination file operand after 'notes.txt'
+Try 'cp --help' for more information.
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ cp notes.txt ../Notepad/"gitbash-practice.txt
+> ls ../Notepad
+> ^C
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ cp notes.txt ../Notepad/"gitbash-practice.txt"
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ mv ../Notepad/gitbash-practice.txt../Notepad/Gitbsh-Practice.txt
+mv: missing destination file operand after '../Notepad/gitbash-practice.txt../Notepad/Gitbsh-Practice.t
+Try 'mv --help' for more information.
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ mv ../Notepad/gitbash-practice.txt ../Notepad/Gitbash-Practice.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ ls ../Notepad
+'Fake Location Details for each  job .md'   Gitbash-Practice.txt   Prompts.md   Prompts.txt  'Resumes D
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ ls -la
+total 5
+drwxr-xr-x 1 rupes 197609  0 Mar 25 07:52 ./
+drwxr-xr-x 1 rupes 197609  0 Mar 25 07:52 ../
+-rw-r--r-- 1 rupes 197609 61 Mar 25 08:00 notes.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$   ..
+bash: ..: command not found
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/gitbash-practice
+$ cd ..
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents
+$ cd Notepad
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ pwd
+/C/Users/rupes/Documents/Notepad
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ls
+'Fake Location Details for each  job .md'   Gitbash-Practice.txt   Prompts.md   Prompts.txt  'Resumes D
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ for f in *\ *; do [ -f "$f" ] && mv -n-- "$f" "${f// /}"; done
+mv: unknown option -- -
+Try 'mv --help' for more information.
+mv: unknown option -- -
+Try 'mv --help' for more information.
+mv: unknown option -- -
+Try 'mv --help' for more information.
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ls
+'Fake Location Details for each  job .md'   Gitbash-Practice.txt   Prompts.md   Prompts.txt  'Resumes D
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ for f in *
+> \ *;
+bash: syntax error near unexpected token `\ *'
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ for f in *\ *; do [ -f "$f" ] && mv -n -- "$f" "${f// /-}"; donr
+> done;
+bash: donr: command not found
+bash: donr: command not found
+bash: donr: command not found
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ^C
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ for f in *\ *; do [-f "$f" ] && mv -n -- "$f" "${f// /-}"; done
+bash: [-f: command not found
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ for f in *\ *; do [ -f "$f" ] && mv -n -- "$f" "${f// /-}"; done
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ls
+Fake-Location-Details-for-each--job-.md  Gitbash-Practice.txt  Prompts.md  Prompts.txt  Resumes-Details
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ touch PythonRenameFiles.py
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ls
+Fake-Location-Details-for-each--job-.md  Prompts.md   PythonRenameFiles.py  You-are-an-AI.txt
+Gitbash-Practice.txt                     Prompts.txt  Resumes-Details-.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ python PythonRenameFiles.py
+RENAME: Fake-Location-Details-for-each--job-.md -> FakeLocationDetailsForEachJob.md
+RENAME: Gitbash-Practice.txt -> GitbashPractice.txt
+RENAME: Resumes-Details-.txt -> ResumesDetails.txt
+RENAME: You-are-an-AI.txt -> YouAreAnAI.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ls -la
+total 26
+drwxr-xr-x 1 rupes 197609    0 Mar 25 21:14 ./
+drwxr-xr-x 1 rupes 197609    0 Mar 25 07:52 ../
+-rw-r--r-- 1 rupes 197609  183 Mar 18 10:56 FakeLocationDetailsForEachJob.md
+-rw-r--r-- 1 rupes 197609   61 Mar 25 20:19 GitbashPractice.txt
+-rw-r--r-- 1 rupes 197609 7446 Mar 23 09:41 Prompts.md
+-rw-r--r-- 1 rupes 197609 1328 Mar  4 12:11 Prompts.txt
+-rw-r--r-- 1 rupes 197609  587 Mar 25 21:12 PythonRenameFiles.py
+-rw-r--r-- 1 rupes 197609    0 Mar 11 12:15 ResumesDetails.txt
+-rw-r--r-- 1 rupes 197609    0 Mar  3 16:37 YouAreAnAI.txt
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ./
+bash: ./: Is a directory
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ../
+bash: ../: Is a directory
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$ ^C
+
+rupes@Rupesh MINGW64 /C/Users/rupes/Documents/Notepad
+$
